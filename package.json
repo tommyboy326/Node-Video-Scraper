@@ -1,15 +1,31 @@
 {
-  "name": "node-spider",
-  "version": "1.0.0",
-  "description": "",
-  "main": "bot.js",
+  "name": "Node-Video-Scraper",
+  "version": "0.0.1",
+  "description": "建立一個影片收集網站",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Kai Wu",
+  "bugs": {
+    "email": "kai@kdzone.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tommyboy326/Node-Video-Scraper"
+  },
+  "license": "MIT",
+
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.3.5",
     "cheerio": "^0.20.0",
-    "request": "^2.72.0"
+    "debug": "^2.2.0",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "morgan": "~1.6.1",
+    "mongoose": "^4.5.2",
+    "request": "^2.72.0",
+    "serve-favicon": "^2.3.0"
+
   }
 }
