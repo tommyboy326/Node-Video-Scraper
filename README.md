@@ -2,6 +2,9 @@
 
 v0.01 bate -- 2016-06-24
 
+<img src="https://github.com/tommyboy326/Node-Video-Scraper/blob/master/public/images/preview_img.jpg" width="100%">
+
+
 進入課程要用Node JS 做爬蟲後再做分析rebuild成網站
 
 Node JS ->抓資料 ->丟到NoSQL -> API方式
